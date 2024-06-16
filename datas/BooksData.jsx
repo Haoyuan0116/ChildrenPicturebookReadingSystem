@@ -1,0 +1,16 @@
+export const booksData = [
+    {id:1, title:'三只小猪', author:'约瑟夫·雅各布斯',
+           image: require('../assets/images/Book1.png'), 
+           characters:[{ id: 1, name: '猪妈妈' }, { id: 2, name: '小红猪' }, { id: 3, name: '小绿猪' }, { id: 4, name: '小蓝猪' }, { id: 5, name: '大灰狼' }, { id: 6, name: '马儿伯伯' }, { id: 7, name: '山羊伯伯' }, { id: 8, name: '鼹鼠伯伯' }],
+           charts:[{ id: 1, chatitle: '三只小猪离开家庭' }, { id: 2, chatitle: '小黑猪小白猪房子撞倒' }, { id: 3, chatitle: '小黑猪小白猪逃往小花猪家' }, { id: 4, chatitle: '小花猪房子撞不开' }, { id: 5, chatitle: '大灰狼最后掉进烟囱出不来了' }], 
+           contents:[{ id: 1, photo: require('../assets/images/3pig1.png'), voiceover: '3pig1.mp3' }, { id: 2, photo: require('../assets/images/3pig2.png'), voiceover: '3pig2.mp3' }, { id: 3, photo: require('../assets/images/3pig3.png'), voiceover: '3pig3.mp3' }, { id: 4, photo: require('../assets/images/3pig4.png'), voiceover: '3pig4.mp3' }, { id: 5, photo: require('../assets/images/3pig5.png'), voiceover: '3pig5.mp3' }, { id: 6, photo: require('../assets/images/3pig6.png'), voiceover: '3pig6.mp3' }, { id: 7, photo: require('../assets/images/3pig7.png'), voiceover: '../assets/audios/3pig7.mp3' }, { id: 8, photo: require('../assets/images/3pig8.png'), voiceover: '../assets/audios/3pig8.mp3' }, { id: 9, photo: require('../assets/images/3pig9.png'), voiceover: '../assets/audios/3pig9.mp3' }, { id: 10, photo: require('../assets/images/3pig10.png'), voiceover: '../assets/audios/3pig10.mp3' }],
+           sections:[{ id: 1, sectiontitle: '猪妈妈的叮嘱', sectioncha:'猪妈妈/小红猪/小绿猪/小蓝猪', sectioncont:'介绍主人公、猪妈妈对三只小猪的叮嘱'}
+                    ,{ id: 2, sectiontitle: '小猪们长大了', sectioncha:'猪妈妈/小红猪/小绿猪/小蓝猪', sectioncont:'小猪们的长大、小猪们的离家'}
+                    ,{ id: 3, sectiontitle: '盖房子', sectioncha:'小红猪/小绿猪/小蓝猪/马儿伯伯/山羊伯伯/鼹鼠伯伯', sectioncont:'小红猪盖房子、小绿猪盖房子、小蓝猪盖房子'}
+                    ,{ id: 4, sectiontitle: '大灰狼来了', sectioncha:'大灰狼/小红猪/小绿猪/小蓝猪', sectioncont:'大灰狼与小蓝猪、大灰狼与小绿猪、大灰狼与小红猪'}
+                    ,{ id: 5, sectiontitle: '大灰狼被打败', sectioncha:'大灰狼/小红猪/小绿猪/小蓝猪', sectioncont:'小红猪的计谋、大灰狼的结局、猪妈妈的称赞'}],
+          },
+    {id:2, title:'小木偶奇遇记', image: require('../assets/images/Book2.png'), charts:[{ id: 1, chatitle: '匹诺曹的诞生' }, { id: 2, chatitle: '匹诺曹上学' }, { id: 3, chatitle: '匹诺曹说谎' }, { id: 4, chatitle: '匹诺曹成为木头人' }, { id: 5, chatitle: '匹诺曹变成了真人' }, { id: 6, chatitle: '匹诺曹与吉米尼老师的冒险' }, { id: 7, chatitle: '匹诺曹与妖精的冒险' }, { id: 8, chatitle: '匹诺曹的归宿' }]},
+    {id:3, title:'睡美人', image: require('../assets/images/Book3.png'), charts:[{ id: 1, chatitle: '王国的宴会与预言' }, { id: 2, chatitle: '王女的诞生与庆典' }, { id: 3, chatitle: '诅咒成真' }, { id: 4, chatitle: '王宫的沉睡' }, { id: 5, chatitle: '王子的到来' }, { id: 6, chatitle: '解除诅咒' }, { id: 7, chatitle: '王国的重生' }, { id: 8, chatitle: '幸福的结局' }]},
+    {id:4, title:'小红帽', image: require('../assets/images/Book4.png'), charts:[{ id: 1, chatitle: '小红帽出生' }, { id: 2, chatitle: '小红帽前往祖母家' }, { id: 3, chatitle: '遇见狼' }, { id: 4, chatitle: '狼的欺诈' }, { id: 5, chatitle: '狼吞噬祖母' }, { id: 6, chatitle: '小红帽的到来' }, { id: 7, chatitle: '小红帽与猎人' }, { id: 8, chatitle: '救出祖母' }, { id: 9, chatitle: '幸福的结局' }]},
+  ];  

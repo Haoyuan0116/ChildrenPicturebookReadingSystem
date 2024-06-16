@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "anderseme",
+    "slug": "anderseme",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": ["path/to/file.ttf"]
+        }
+      ]
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "416370d3-216a-4e0d-aeb5-e58bcfe5da0b"
+      }
+    },
+    "owner": "chaoyuan0116"
+  }
+}
