@@ -1,0 +1,3 @@
+# ChildrenReadSystem
+
+一个利用React Native编译的可以在ipad端运行的绘本阅读系统
